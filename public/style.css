@@ -1,0 +1,72 @@
+.body {
+    background-color: #E4E9FD;
+    background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+    min-height: 99vh;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    font-family: 'helvetica neue';
+  }
+  h1{
+      background-color: blueviolet;
+      padding: 10px;
+      border-radius: 10px;
+      text-align: center;
+      width: 70%;
+      margin: auto;
+      color: white;
+  }
+  
+  input[type="text"]{
+      background-color: rgb(255, 255, 255);
+      padding: 6px 25px;
+      border-radius: 5px;
+      text-align: center;
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+      border: none;
+      border: 2px solid black;
+  }
+  
+  input[type="submit"]{
+      background-color: blueviolet;
+      padding: 8px 25px;
+      border-radius: 5px;
+      text-align: center;
+      color: white;
+      font-weight: bold;
+      border: none;
+      
+  }
+  input[type="time"]{
+      
+      padding: 6px 25px;
+      border-radius: 5px;
+      text-align: center;
+      color: black;
+      font-weight: bold;
+      border: none;
+      border: 2px solid black;
+  }
+  li{
+      margin-top: 20px;
+      list-style: none;
+      width: 15%;
+      padding: 8px 25px;
+      border-radius: 5px;
+      text-align: center;
+      color: white;
+      font-weight: bolder;
+      font-size: larger;
+  }
+  li:nth-child(odd){
+      background-color: blueviolet;
+  }
+  li:nth-child(even){
+      background-color: navy;
+  }
+  @media(max-width:500px) {
+
+      input[type="submit"]{
+        margin-top: 20px;
+      }
+  }
